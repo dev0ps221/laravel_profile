@@ -21,7 +21,7 @@ function process_route($view){
         'message'=>'message'
     ];
     $render = array_key_exists($view,$views) ? $views[$view] : 'notfound';
-    echo $render;
+    
     return view('entry',['render'=>$render]);
 }
 

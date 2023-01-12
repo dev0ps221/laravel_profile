@@ -1,3 +1,5 @@
 .page{
-    background-color: red;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
 }
