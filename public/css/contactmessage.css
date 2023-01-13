@@ -1,3 +1,6 @@
+#contactmessage{
+    margin-top: 5%;
+}
 #contactmessage form{
     display: flex;
     flex-direction: column;
