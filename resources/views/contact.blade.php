@@ -5,4 +5,8 @@
         view('contactmessage')
     }}
 
+    {{
+        view('joinme')
+    }}
+
 </section>
