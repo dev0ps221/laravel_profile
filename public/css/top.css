@@ -1,6 +1,9 @@
 nav{
+    padding: 0;
+    margin: 0;
     display: grid;
     grid-template-columns: 2fr 2fr;
+    background: #b77;
 }
 nav #headline{
     padding: .5%;

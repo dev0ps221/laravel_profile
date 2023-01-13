@@ -7,7 +7,9 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 .page{
-    padding: .5%;
     display: flex;
     flex-direction: column;
+}
+.corps{
+    padding: .5%;
 }
