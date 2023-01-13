@@ -18,7 +18,7 @@ function process_route($view){
         'accueil'=>'home',
         'projets'=>'projets',
         'blog'=>'blog',
-        'message'=>'message'
+        'contactez-moi'=>'contact'
     ];
     $render = array_key_exists($view,$views) ? $views[$view] : 'notfound';
     

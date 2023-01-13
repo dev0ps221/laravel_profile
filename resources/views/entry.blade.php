@@ -4,7 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>El Hadji Seybatou Mbengue</title>
+        <title>
+            EL HADJI SEYBATOU MBENGUE &#8211; Mr Mbengue &#8211; Sites web - Applications mobiles - Applications natives - Applications web - Applications progressives - Formations personnelles  
+        </title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
