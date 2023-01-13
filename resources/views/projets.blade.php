@@ -1,9 +1,12 @@
 <link rel="stylesheet" href="{{URL::asset("css/projets.css")}}"/>
 <section id="projets">
+    <h2>
+        Projets
+    </h2>
     <section id="github">
-        <h2>
+        <h3>
             Retrouvez moi sur <a href="https://github.com/dev0ps221"> github </a>
-        </h2>
+        </h3>
         <em>
             Voici une liste exhaustive de projets publics sur lesquels je travaille <a href="https://github.com/dev0ps221">github</a>
         </em>
@@ -30,7 +33,7 @@
     
                     const repoDetails = document.createElement('div')
                     const repolang = document.createElement('span')
-                    repolang.innerHTML = `<em>langage de programmation : </em>${language}`
+                    repolang.innerHTML = `<em>langage de programmation : ${language}</em>`
                     if(language){
                         repoDetails.appendChild(repolang)
                     }
@@ -39,6 +42,7 @@
                     const repolinkcontainer = document.createElement('em')
                     const repolink = document.createElement('a')
                     repolink.href = html_url
+                    repolink.target = '_blank'
                     repolink.innerText = 'visiter'
                     repolinkcontainer.appendChild(repolink)
                     repoElem.appendChild(repolinkcontainer)

@@ -8,6 +8,7 @@ nav{
     position: sticky;
     top: 0;
     color: #fff;
+    background: #02072d88;
     box-shadow:  .05em .05em .05em .15em #fff3;
 }
 nav > *{
@@ -27,6 +28,7 @@ nav .list{
     display: flex;
     justify-content: space-around;
     padding: .5%;
+    background: #02072daa;
 }
 nav .list > *{
     padding: 2%;

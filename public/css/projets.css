@@ -18,3 +18,41 @@ nav .list >*:hover{
     border-color: #333b;
     color: #025eb5;
 }
+#projets{
+    display: flex;
+    flex-direction: column;
+    padding: 2.5%;
+    background:#02072dcc;
+}
+#github em,#github span{
+    color:#fff;
+}
+#github .data {
+    max-height: 80vh;
+    /* overflow: hidden;
+    overflow: scroll; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.github-repo {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    display: flex;
+    width: 30%;
+    height: 96%;
+    padding: 2%;
+    margin: 1%;
+    flex-direction: column;
+}
+.github-repo em{
+    padding: 2%;
+    margin-top: 2.5%;
+    background: #02072d;
+    display: flex;
+    justify-content: flex-end;
+}
+.github-repo a{
+    color: #02072d;
+    padding: 2%;
+    background: #fff;
+}
