@@ -1,5 +1,9 @@
+<link rel="stylesheet" href="{{URL::asset('/css/contactmessage.css')}}">
 <section id="contactmessage">
-    <form onSubmit="scmessage(event.target)">
+    <h4>
+        envoyez moi un message
+    </h4>
+    <form method='post' onSubmit="event.preventDefault();scmessage(event.target)">
         <div class="field">
             <label for="nom_complet">
                 votre nom_complet
@@ -19,10 +23,16 @@
             <input type="text" name='telephone'  placeholder='telephone'>
         </div>
         <div class="field">
-            <label for="telephone">
-                votre telephone
+            <label for="message">
+                ecrivez moi
             </label>
-            <input type="text" name='telephone'  placeholder='telephone'>
+            <textarea name='message' placeholder='ecrivez moi'></textarea>
+        </div>
+        <div class="field">
+            <button>
+                envoyer
+            </button>
         </div>
     </form>
 </section>
+<script src="{{URL::asset('/js/contactmessage.js')}}"></script>

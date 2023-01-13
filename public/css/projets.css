@@ -28,8 +28,8 @@ nav .list >*:hover{
     color:#fff;
 }
 #github .data {
-    max-height: 80vh;
-    /* overflow: hidden;
+    /* max-height: 80vh;
+    overflow: hidden;
     overflow: scroll; */
     display: flex;
     flex-wrap: wrap;
@@ -43,6 +43,12 @@ nav .list >*:hover{
     padding: 2%;
     margin: 1%;
     flex-direction: column;
+}
+.github-repo:hover{
+    background: #3335;
+    border: none;
+    border-bottom: 1px solid #025eb5dd;
+    border-left: 1px solid #025eb5dd;
 }
 .github-repo em{
     padding: 2%;

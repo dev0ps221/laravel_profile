@@ -1,0 +1,17 @@
+#contactmessage form{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+#contactmessage form .field{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+#contactmessage form .field > *{
+    padding:3px;
+    margin:3px;
+}
+#contactmessage form button{
+    background:#1fb1f2dd;
+    width: 50%;
+}

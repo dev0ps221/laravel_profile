@@ -4,7 +4,7 @@
             mon stack de technologies et d'outils
         </h2>
         <h3>
-            je travaille principalement avec une des technologies suivantes selon le besoin: 
+            je travaille principalement avec les technologies suivantes: 
         </h3>
         <p class="tools-and-tech"> 
             <span class="tool-and-tech">

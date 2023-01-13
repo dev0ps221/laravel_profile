@@ -20,13 +20,14 @@ nav .list >*:hover{
 }
 .corps{
     background: white;
+    background: #365d7e;
     margin-top: 80vh;
 }
 #contact{
     border-radius: 1.25em;
     background: #02072ddd;
-    margin: 10%;
-    margin-top: 0;
+    margin: 0;
+    /* margin-top: 10; */
     padding: 5%;
     padding-top: 2.5%;
 }
