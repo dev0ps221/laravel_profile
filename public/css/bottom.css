@@ -1,5 +1,16 @@
 footer{
+    margin-top: 15vh;
+    background: #02072dcc;
     padding:5%;
+}
+footer li{
+    color:white;
+}
+footer li a{
+    color:#1fb1f299;
+}
+footer li a:hover{
+    color:#1fb1f2;
 }
 .rows{
     width: 100%;
@@ -14,7 +25,6 @@ footer{
     padding: 1%;
 }
 .rows p{
-    background: #dddb;
     display: block;
     width: 100%;
     text-align: center;

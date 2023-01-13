@@ -20,9 +20,12 @@
             </section>
             <section id='liens'>
                 <h2>
-                    Autres Liens
+                    Autres Infos
                 </h2>
                 <ul class='data'>
+                    <li>
+                        <a href="http://samashop.rf.gd">Votre boutique en ligne avec SamaShop de Tek-Tech </a>
+                    </li>
                     <li>
                         <a href="http://tektech.rf.gd">Commandez un site chez Tek-Tech </a>
                     </li>

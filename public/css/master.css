@@ -164,8 +164,9 @@ body {
 .page{
     display: flex;
     flex-direction: column;
-}
-.corps{
+  }
+  .corps{
+    min-height: 50vh;
     padding-top: .5%;
     padding-left: 5%;
     padding-right: 5%;
