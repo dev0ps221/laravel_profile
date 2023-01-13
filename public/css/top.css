@@ -1,9 +1,17 @@
-header{
-    min-height: 50vh;
-}
-header h1{
-    padding: .5%;
-}
 nav{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+nav #headline{
     padding: .5%;
+}
+nav .list{
+    display: flex;
+    justify-content: space-around;
+    padding: .5%;
+}
+nav .list > *{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
