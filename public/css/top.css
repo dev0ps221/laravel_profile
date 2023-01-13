@@ -7,9 +7,10 @@ nav{
     padding-right: 5%;
     position: sticky;
     top: 0;
-    background: #fff5;
+    color: #fff;
+    /* background: #fff5; */
     /* padding-bottom: 1.5%; */
-    box-shadow:  .05em .05em .05em .05em #3337;
+    box-shadow:  .05em .05em .05em .15em #fff3;
 }
 nav > *{
     padding-bottom: 3%;
@@ -30,17 +31,26 @@ nav .list{
     padding: .5%;
 }
 nav .list > *{
+    padding: 2%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 nav .list > *:hover{
     font-weight:bold;
+    text-decoration: dashed;
+    /* background: linear-gradient( to bottom ,#fff0,#fff0,#fff0,#fffd); */
+    /* border-bottom-left-radius: 2.5em; */
+    /* border-bottom-right-radius: .8em; */
+    color:#fff;
+    transition: .5s;
+    border-bottom:2px solid #ddd;
 }
 header{
-    background: url('/pics/dev.jpg');
+    background-attachment: fixed;
+    background: url('/pics/dev1.jpg');
     min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 95% 100%;
+    background-size: 100% 100%;
 }

@@ -150,8 +150,9 @@ body {
     min-height: 100vh;
     font-family: 'Nunito', sans-serif;
     background:linear-gradient(to bottom ,#ac9393dd,#ac9393,#ac9393,#ac9393dd);
-    /* background:linear-gradient(to bottom ,#48373edd,#48373e,#48373e,#48373edd); */
+    background:linear-gradient(to bottom ,#2d324f,#2d324f,#2d324f,#2d324f);
     color:#48373edd;
+    color: #1fb1f2dd;
     font-size: 1.2em;
     background-size: 100% 100%;
 }
