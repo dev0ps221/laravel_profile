@@ -1,4 +1,3 @@
-<
-    section id="joinme">
-
+<section id="joinme">
+    
 </section>
