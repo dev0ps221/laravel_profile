@@ -1,0 +1,6 @@
+body{
+    background: url('/pics/projets.png'),#025eb5;
+    background-repeat: no-repeat,repeat-y;
+    background-size: 100% 100vh,100% 100vh;
+    background-position: 0 0 , 0 100vh;
+}

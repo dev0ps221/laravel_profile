@@ -147,18 +147,17 @@
 }
 body {
     width: 100%;
-    min-height: 100vh;
+    min-height: 150vh;
     font-family: 'Nunito', sans-serif;
     background:linear-gradient(to bottom ,#ac9393dd,#ac9393,#ac9393,#ac9393dd);
     background-color:linear-gradient(to bottom ,#2d324f,#2d324f,#2d324f,#2d324f);
     color:#48373edd;
-    color: #1fb1f2dd;    background: url('/pics/dev1.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100vh;
-
+    color: #1fb1f2dd;
+    background: url('/pics/dev1.jpg'),linear-gradient(to bottom ,#2d324f,#2d324f,#2d324f,#2d324f);
+    background-repeat: no-repeat,repeat-y;
+    background-size: 100% 100vh,100% 100vh;
+    background-position: 0 0,0 100vh;
     font-size: 1.2em;
-    background-size: 100% 100%;
 }
 .page{
     display: flex;
