@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="{{URL::asset("css/top.css")}}"/>
 <nav>
-    <div id="headline">
+    <a href='/' id="headline">
         <h1 id="logobox">
             El Hadji Seybatou Mbengue
         </h1>
@@ -8,7 +8,7 @@
             Developpeur et feru de technologies
         </h4>
 
-    </div>
+    </a>
     <div class="list">
         <a href="/">moi</a>
         <a href="/projets">mes projets</a>
