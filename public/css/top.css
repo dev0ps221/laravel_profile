@@ -1,0 +1,9 @@
+header{
+    min-height: 50vh;
+}
+header h1{
+    padding: .5%;
+}
+nav{
+    padding: .5%;
+}

@@ -1,4 +1,8 @@
+<link rel="stylesheet" href="{{URL::asset("css/top.css")}}"/>
 <header>
+    <h1 id="logobox">
+        El Hadji Seybatou Mbengue
+    </h1>
     <nav>
         <a href="/">page</a>
         <a href="/projets">page</a>
