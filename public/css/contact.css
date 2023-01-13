@@ -18,3 +18,15 @@ nav .list >*:hover{
     border-color: #333b;
     color: #025eb5;
 }
+.corps{
+    background: white;
+    margin-top: 80vh;
+}
+#contact{
+    border-radius: 1.25em;
+    background: #02072ddd;
+    margin: 10%;
+    margin-top: 0;
+    padding: 5%;
+    padding-top: 2.5%;
+}
