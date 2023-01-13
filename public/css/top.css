@@ -2,11 +2,27 @@ nav{
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    background: #b77;
+    grid-template-columns: 3fr 1fr;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: sticky;
+    top: 0;
+    background: #fff5;
+    /* padding-bottom: 1.5%; */
+    box-shadow:  .05em .05em .05em .05em #3337;
+}
+nav > *{
+    padding-bottom: 3%;
+    box-shadow:  .0 .05em   #fff;
 }
 nav #headline{
+    display: grid;
+    font-size: 1.3em;
+    font-weight: bolder;
     padding: .5%;
+}
+nav #headline h4{
+    font-size: .89em;
 }
 nav .list{
     display: flex;
@@ -17,4 +33,14 @@ nav .list > *{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+nav .list > *:hover{
+    font-weight:bold;
+}
+header{
+    background: url('/pics/dev.jpg');
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95% 100%;
 }
