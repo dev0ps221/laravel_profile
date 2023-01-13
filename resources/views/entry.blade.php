@@ -26,6 +26,9 @@
             <section class='corps'>
                 {{view($render)}}
             </section>
+            <?php
+                echo view('bottom');
+            ?>
         </section>
     </body>
 </html>

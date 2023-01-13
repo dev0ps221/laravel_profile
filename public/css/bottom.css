@@ -1,0 +1,21 @@
+footer{
+    padding:5%;
+}
+.rows{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.rows > *{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+}
+.rows p{
+    background: #dddb;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
