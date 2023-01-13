@@ -21,7 +21,7 @@ nav .list >*:hover{
 .corps{
     background: white;
     background: #365d7e;
-    margin-top: 80vh;
+    margin-top: 78vh;
 }
 #contact{
     border-radius: 1.25em;
@@ -30,4 +30,8 @@ nav .list >*:hover{
     /* margin-top: 10; */
     padding: 5%;
     padding-top: 2.5%;
+    margin-bottom: .5%;
+}
+@media screen and (max-width:997px) {
+    
 }

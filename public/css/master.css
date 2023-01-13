@@ -172,3 +172,7 @@ body {
     padding-left: 5%;
     padding-right: 5%;
 }
+
+@media screen and (max-width:997px) {
+    
+}
