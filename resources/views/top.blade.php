@@ -13,6 +13,6 @@
         <a href="/">moi</a>
         <a href="/projets">mes projets</a>
         <a href="/blog">posts</a>
-        <a href="/message">ecrivez moi</a>
+        <a href="/contactez-moi">contactez moi</a>
     </div>
 </nav>

@@ -8,8 +8,6 @@ nav{
     position: sticky;
     top: 0;
     color: #fff;
-    /* background: #fff5; */
-    /* padding-bottom: 1.5%; */
     box-shadow:  .05em .05em .05em .15em #fff3;
 }
 nav > *{
@@ -39,9 +37,6 @@ nav .list > *{
 nav .list > *:hover{
     font-weight:bold;
     text-decoration: dashed;
-    /* background: linear-gradient( to bottom ,#fff0,#fff0,#fff0,#fffd); */
-    /* border-bottom-left-radius: 2.5em; */
-    /* border-bottom-right-radius: .8em; */
     color:#fff;
     transition: .5s;
     border-bottom:2px solid #ddd;

@@ -4,3 +4,7 @@ body{
     background-size: 100% 100vh,100% 100vh;
     background-position: 0 0 , 0 100vh;
 }
+nav{
+
+    background: #02072dcc;
+}

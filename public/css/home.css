@@ -1,0 +1,19 @@
+#shortabout{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: auto;
+    margin-left: 0;
+    height: 70vh;
+}
+#shortabout *{
+    margin: auto;
+}
+#shortabout h2{
+    margin-bottom: 0;
+}
+#shortabout p{
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+}

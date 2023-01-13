@@ -1,11 +1,11 @@
 body{
-    background: url('/pics/projets.png'),#02072d;
+    background: url('/pics/prog.jpg'),#02072d;
     background-repeat: no-repeat,repeat-y;
     background-size: 100% 100vh,100% 100vh;
     background-position: 0 0 , 0 100vh;
 }
 nav{
-    background: #02072d;
+    background: #02072ddd;
     /* color: #333b; */
 }
 nav *{
