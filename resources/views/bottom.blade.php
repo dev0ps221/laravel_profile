@@ -70,7 +70,7 @@
                         Nationalite :
                     </span>
                     <span class='infodata'>
-                        Senegalaise
+                        Senegalais
                     </span>
                 </div>
                 <div class='infoline'>
@@ -78,7 +78,7 @@
                         Annees d'experience :
                     </span>
                     <span class='infodata'>
-                        5
+                        +5ans d'experience
                     </span>
                 </div>
             </div>

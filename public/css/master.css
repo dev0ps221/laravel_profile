@@ -174,5 +174,8 @@ body {
 }
 
 @media screen and (max-width:997px) {
-    
+    .corps section{
+      margin-top: 15vh;
+      margin-bottom: 15vh;
+    }
 }

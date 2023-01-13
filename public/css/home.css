@@ -58,7 +58,16 @@
     height: 50%;
     margin-top: 0;
     margin-bottom: 0;
-}
+}   
 @media screen and (max-width:997px) {
-    
+    #shortabout{
+        background: #2d324f;
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+    #shortabout img{
+        width: 80%;
+        height:50vh;
+    }
 }
