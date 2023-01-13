@@ -48,9 +48,5 @@ nav .list > *:hover{
 }
 header{
     background-attachment: fixed;
-    background: url('/pics/dev1.jpg');
     min-height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
