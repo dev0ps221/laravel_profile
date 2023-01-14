@@ -47,13 +47,31 @@ header{
     background-attachment: fixed;
     min-height: 100vh;
 }
+#showhide{
+    display: none;
+    position: absolute;
+}
 @media screen and (max-width:997px) {
     nav{
         display: flex;
-        flex-direction: column-reverse;
-        position: relative;
+        /* flex-direction: column-reverse; */
+        /* position: relative; */
     }        
     nav .list{
-        /* display: none; */
+        display: none;
+    }
+    #showhide{
+        display: flex;
+        top:5%;
+        right:5%;
+        padding: 0;
+        margin: 0;
+    }
+    #showhide .la{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5em;
+        display: flex;
     }
 }
