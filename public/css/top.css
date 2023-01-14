@@ -54,6 +54,6 @@ header{
         position: relative;
     }        
     nav .list{
-        display: none;
+        /* display: none; */
     }
 }

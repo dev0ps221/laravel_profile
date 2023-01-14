@@ -63,5 +63,14 @@ nav .list >*:hover{
     background: #fff;
 }
 @media screen and (max-width:997px) {
-    
+    #github .data{
+        flex-direction: column;
+    }
+    .github-repo {
+        border-top: 1px solid white;
+        border-right: 1px solid white;
+        display: flex;
+        margin: 0;
+        width: 100%;
+    }
 }

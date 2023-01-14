@@ -33,5 +33,7 @@ nav .list >*:hover{
     margin-bottom: .5%;
 }
 @media screen and (max-width:997px) {
-    
+    .corps{
+        background: #02072d;
+    }
 }
