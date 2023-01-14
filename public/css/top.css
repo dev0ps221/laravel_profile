@@ -50,6 +50,13 @@ header{
 #showhide{
     display: none;
     position: absolute;
+    cursor: pointer;
+}
+#showhide:hover{
+    color:#3bb;
+}
+#mobilenav{
+  display: none;
 }
 @media screen and (max-width:997px) {
     nav{
@@ -73,5 +80,19 @@ header{
         justify-content: center;
         font-size: 1.5em;
         display: flex;
+    }
+    #mobilenav{
+      display: flex !important;
+      position: relative;
+    }
+    #mobilenav .list.visible{
+      display: flex;
+      margin-left:-5%;
+      margin-right:-5%;
+      right: 0;
+      padding: 5%;
+      padding-top:0;
+      position: fixed;
+      flex-direction: column;
     }
 }

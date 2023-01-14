@@ -172,26 +172,9 @@ body {
   padding-left: 5%;
   padding-right: 5%;
 }
-#mobilenav{
-  display: none;
-}
 @media screen and (max-width:997px) {
     .corps section{
       margin-top: 15vh;
       margin-bottom: 15vh;
-    }
-    #mobilenav{
-      display: flex !important;
-      position: relative;
-    }
-    #mobilenav .list.visible{
-      display: flex;
-      margin-left:-5%;
-      margin-right:-5%;
-      right: 0;
-      padding: 5%;
-      padding-top:0;
-      position: fixed;
-      flex-direction: column;
     }
 }
