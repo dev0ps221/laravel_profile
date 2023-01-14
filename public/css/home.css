@@ -59,6 +59,12 @@
     margin-top: 0;
     margin-bottom: 0;
 }   
+#servicesbox{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    padding: 5%;
+    grid-gap:2.5%;
+}
 @media screen and (max-width:997px) {
     #shortabout{
         background: #2d324f;
@@ -82,5 +88,39 @@
         display: flex;
         flex-direction: column;
         color: white;
+    }
+    #actionsservices {
+        font-size: .9em;
+        margin: 0;
+        margin-right: 0px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        padding: 2%;
+        border-radius: 1.5em;
+    }
+    #actionsservices > *{
+        background-color: #2d324f;
+        padding: 4%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        border-radius: 1.5em;
+    }
+    #actionsservices form {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 2%;
+    }
+    #actionsservices form .field {
+        display: flex;
+        flex-direction: column;
+    }
+    #servicesbox{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
     }
 }

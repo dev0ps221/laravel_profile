@@ -7,3 +7,6 @@
     {{
         view('techstack')
     }}
+    {{
+        view('services')
+    }}

@@ -8,7 +8,19 @@ nav{
 
     background: #02072dcc;
 }
-
+#blog{
+    min-height: 80vh;
+    margin: 0;
+    padding: 2%;
+    background: #02072dcc;
+}
+#blog p{
+    padding: 5px;
+    padding-left: 8px;
+    border-radius: .5em;
+    background: white;
+    color: #02072dcc;
+}
 @media screen and (max-width:997px) {
     
 }

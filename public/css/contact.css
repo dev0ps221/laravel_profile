@@ -1,8 +1,8 @@
 body{
     background: url('/pics/prog.jpg'),#02072d;
     background-repeat: no-repeat,repeat-y;
-    background-size: 100% 100vh,100% 100vh;
-    background-position: 0 0 , 0 100vh;
+    background-size: 100% 90vh,100% 100vh;
+    background-position: 0 0 , 0 90vh;
 }
 nav{
     background: #02072ddd;
@@ -21,7 +21,7 @@ nav .list >*:hover{
 .corps{
     background: white;
     background: #365d7e;
-    margin-top: 78vh;
+    margin-top: 68vh;
 }
 #contact{
     border-radius: 1.25em;
@@ -33,7 +33,16 @@ nav .list >*:hover{
     margin-bottom: .5%;
 }
 @media screen and (max-width:997px) {
+    body{
+        background: url('/pics/prog.jpg'),#02072d;
+        background-repeat: no-repeat,repeat-y;
+        background-size: 100% 80vh,100% 100vh;
+        background-position: 0 0 , 0 80vh;
+    }
     .corps{
         background: #02072d;
+        padding-top: 5%;
+        margin-top: 38vh;
     }
+
 }
