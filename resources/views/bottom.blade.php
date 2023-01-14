@@ -24,13 +24,13 @@
                 </h2>
                 <ul class='data'>
                     <li>
-                        <a href="http://samashop.rf.gd">Votre boutique en ligne avec SamaShop de Tek-Tech </a>
+                        <a target='_blank' href="http://samashop.rf.gd">Votre boutique en ligne avec SamaShop de Tek-Tech </a>
                     </li>
                     <li>
-                        <a href="http://tektech.rf.gd">Commandez un site chez Tek-Tech </a>
+                        <a target='_blank' href="http://tektech.rf.gd">Commandez un site chez Tek-Tech </a>
                     </li>
                     <li>
-                        <a href="http://news-tektech.rf.gd">L'actualité tech sur Tek-Tech News </a>
+                        <a target='_blank' href="http://news-tektech.rf.gd">L'actualité tech sur Tek-Tech News </a>
                     </li>
                     <li>
                         seybaxscorpion@gmail.com
@@ -85,7 +85,7 @@
         </div>
         <div class='rows'>
             <p>
-                copyrights <a href="http://tektech.rf.gd">TEK TECH</a> - 2022
+                copyrights <a target='_blank' href="http://tektech.rf.gd">TEK TECH</a> - 2022
             </p>
         </div>
     </footer>

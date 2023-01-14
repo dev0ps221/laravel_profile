@@ -15,4 +15,8 @@
 }
 @media screen and (max-width:997px) {
     
+    #joinme #infos{
+        display: grid;
+        grid-template-columns:  4fr;
+    }
 }

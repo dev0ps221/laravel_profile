@@ -72,8 +72,9 @@
     margin-top: 2%;
 }
 #actionsservices form .field {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    padding: 1%;
 }
 #actionsservices form .field > *{
     padding: 2%;
@@ -127,6 +128,10 @@
     #servicesbox{
         margin: 0;
         padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    #actionsservices form .field {
         display: flex;
         flex-direction: column;
     }
