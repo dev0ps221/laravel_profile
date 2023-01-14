@@ -44,7 +44,7 @@
         <em>
             Remplissez ce formulaire et je vous fais une offre dans les 72h qui suivent
         </em>
-        <form id="demander-offre" method="post" action="/?init_demande">
+        <form id="demander-offre" method="post" onSubmit="event.preventDefault();demandeoffre(event.currentTarget)">
             <div class="field">
                 <label for="nom_complet">
                     Votre nom complet
@@ -106,3 +106,5 @@
         </form>
     </section>
 </section>
+
+<script src="{{URL::asset('/js/demandeoffre.js')}}"></script>
