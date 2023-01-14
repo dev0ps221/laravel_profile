@@ -84,6 +84,8 @@ header{
     #mobilenav{
       display: flex !important;
       position: relative;
+      margin-bottom: 2%;
+      padding: 2.5%;
     }
     #mobilenav .list.visible{
       display: flex;

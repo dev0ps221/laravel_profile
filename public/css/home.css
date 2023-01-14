@@ -68,6 +68,19 @@
     }
     #shortabout img{
         width: 80%;
-        height:50vh;
+        height:35vh;
+    }
+    #shortabout p{
+        font-size: .9em;
+    }
+    .tool-and-tech {
+        font-weight: bolder;
+        text-align: center;
+        width: 23%;
+        font-size: .8em;
+        margin: 2%;
+        display: flex;
+        flex-direction: column;
+        color: white;
     }
 }

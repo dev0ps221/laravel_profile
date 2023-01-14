@@ -38,9 +38,9 @@
         setTimeout((list,wasvisible,target)=>{
             if(!wasvisible){
                 list.classList.remove('visible')
+                target.querySelector('.la').classList.add('la-equals')
+                target.querySelector('.la').classList.remove('la-times')
             }
-            target.querySelector('.la').classList.remove('la-equals')
-            target.querySelector('.la').classList.add('la-times')
         },5000,list,wasvisible,target)
     }
 </script>
