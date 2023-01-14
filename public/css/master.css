@@ -172,6 +172,11 @@ body {
   padding-left: 5%;
   padding-right: 5%;
 }
+form button {
+  background: #1fb1f2dd;
+  width: 50%;
+  padding: 2%;
+}
 @media screen and (max-width:997px) {
     .corps section{
       margin-top: 15vh;

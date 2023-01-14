@@ -14,10 +14,6 @@
     padding:3px;
     margin:3px;
 }
-#contactmessage form button{
-    background:#1fb1f2dd;
-    width: 50%;
-}
 
 @media screen and (max-width:997px) {
     #contactmessage form .field{
