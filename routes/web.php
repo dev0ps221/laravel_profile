@@ -19,19 +19,19 @@ Auth::routes();
 Route::get('/',function () {
     return redirect('/accueil');
 });
-Route::controller(App\Http\Controllers\DemandeController::class)->prefix('demande')->group(function () {
+Route::controller(App\Http\Controllers\DemandeController::class)->group(
+    function () {
     
-    Route::post('/nouvelle','nouvelle');
+        Route::post('/demande/nouvelle','nouvelle');
     
-    
-});
-Route::controller(App\Http\Controllers\ArticleController::class)->prefix('blog')->group(function () {
-    
-    Route::get('/', 'index');
-    Route::get('/article/{id}', 'show');
-    
-    
-});
+    }
+);
+Route::controller(App\Http\Controllers\ArticleController::class)->prefix('blog')->group(
+    function () {
+        Route::get('/', 'index');
+        Route::get('/article/{id}', 'show');
+    }
+);
 Route::controller(App\Http\Controllers\BlogadminController::class)->prefix('blogadmin')->middleware('auth')->group(
     function(){
         Route::get('/','showboard');

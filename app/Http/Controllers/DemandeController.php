@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class DemandeController extends Controller
 {
-    function nouvelle(Request $request){
+    public function nouvelle(Request $request){
         $request->validate([
             'nom_complet'=>'required',
             'cible_demande'=> 'required',
@@ -15,7 +15,6 @@ class DemandeController extends Controller
             'description'=> 'required',
             'besoin' => 'required'
         ]);
-        print_r('okok');
         $demande = new Demande();
         $demande->nom_complet = $request->get('nom_complet');
         $demande->cible_demande = $request->get('cible_demande');

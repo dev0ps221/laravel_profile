@@ -45,6 +45,7 @@
             Remplissez ce formulaire et je vous fais une offre dans les 72h qui suivent
         </em>
         <form id="demander-offre" method="post" action='/demande/nouvelle'>
+            @csrf
             <div class="field">
                 <label for="nom_complet">
                     Votre nom complet
