@@ -26,6 +26,13 @@ Route::controller(App\Http\Controllers\DemandeController::class)->group(
     
     }
 );
+Route::controller(App\Http\Controllers\MessageController::class)->group(
+    function () {
+    
+        Route::post('/message/nouveau','nouveau');
+    
+    }
+);
 Route::controller(App\Http\Controllers\ArticleController::class)->prefix('blog')->group(
     function () {
         Route::get('/', 'index');

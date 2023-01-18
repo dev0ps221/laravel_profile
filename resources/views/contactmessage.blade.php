@@ -3,12 +3,13 @@
     <h4>
         envoyez moi un message
     </h4>
-    <form method='post' onSubmit="event.preventDefault();scmessage(event.target)">
+    <form method='post' action='/message/nouveau'>
+        @csrf
         <div class="field">
             <label for="nom_complet">
                 votre nom_complet
             </label>
-            <input type="number" name='nom_complet'  placeholder='nom_complet'>
+            <input type="text" name='nom_complet'  placeholder='nom_complet'>
         </div>
         <div class="field">
             <label for="adresse_email">
@@ -20,7 +21,7 @@
             <label for="telephone">
                 votre telephone
             </label>
-            <input type="text" name='telephone'  placeholder='telephone'>
+            <input type="number" name='telephone'  placeholder='telephone'>
         </div>
         <div class="field">
             <label for="message">
