@@ -2,9 +2,12 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 #blogadmin{
     display: flex;
+    flex-wrap: wrap;
     height: 100vh;
     overflow: hidden;
 }
@@ -13,7 +16,7 @@
     height: 100%;
     overflow-y: scroll;
 }
-#blogadmin-menu{
+#blogadmin-menu,#blognav{
     position: sticky;
     color: #fff;
     top: 0;
@@ -35,16 +38,56 @@
 #blogadmin-menu .card-header .card-title{
     padding: 2%;
 }
-#blogadmin-menu li{
+#blogadmin-menu li,#blognav li{
     margin: 0;
     margin-bottom: 2%;
-    padding: 2%;
+    padding: 1%;
     background:#ddd9 ;
-    border-radius: 5em;
+    border-radius: 2.5em;
     font-weight: bolder;
+    text-align: center;
     color: #fff;
 }
 #blogadmin li.actual{
     color: #08c;
     background:#fff;
+}
+#blognav{
+    display: none;
+}
+@media screen and (max-width:997px){
+    #blogadmin-menu{
+        display: none;
+        position: absolute;
+    }
+    #blogadmin-menu.visible{
+        width: 250px;
+    }
+    #blognav{
+        display: flex;
+        height: 18vh;
+        justify-content: space-around;
+        min-width: 100%;
+    }
+    #blognav ul{
+        width: 100%;
+        justify-content: space-around;
+        margin: 0;
+        padding: 2%;
+    }
+    #blognav ul li{
+        width: 100%;
+        margin: 1%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #view{
+        width: 100%;
+        height: 85vh;
+    }   
+    #view .form-group *{
+        margin: auto;
+        width: 96%;
+        margin-bottom: 2%;
+    }
 }

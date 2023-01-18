@@ -26,3 +26,26 @@
         </ul>
     </div>
 </aside>
+<nav id="blognav">
+    <h2>
+        blogadmin
+    </h2>
+    <ul>
+        <?php
+            foreach($views as $view){
+                ?>
+                    <a href="/blogadmin/<?php echo $view?>">
+                        <li <?php if($ldview == $view){echo "class='actual'";}?>>
+                            <?php echo $view; ?>
+                        </li>
+                    </a>
+                <?php
+            }
+        ?>
+        <a href="/logout">
+            <li>
+                deconnexion
+            </li>
+        </a>
+    </ul>
+</nav>
