@@ -49,6 +49,12 @@ Route::controller(App\Http\Controllers\BlogadminController::class)->prefix('blog
         Route::delete('/supprimer/{id}', 'supprimer');
     }
 );
+Route::controller(App\Http\Controllers\PortfoadminController::class)->prefix('portfoadmin')->middleware('auth')->group(
+    function(){
+        Route::get('/','showboard');
+        Route::get('/{ldview}','showview');
+    }
+);
 Route::controller(App\Http\Controllers\PortfoController::class)->group(
     function(){
         
