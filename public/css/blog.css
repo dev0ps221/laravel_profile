@@ -21,6 +21,21 @@ nav{
     background: white;
     color: #02072dcc;
 }
+#blog .card{
+    --bs-card-bg:none;
+}
+.article_blog{
+    display: flex;
+    margin: auto;
+    background: #02072d;
+    color: white;
+}
 @media screen and (max-width:997px) {
-    
+    .article_blog{
+        min-width: 100%;
+        display: flex;
+        margin: auto !important;
+        background: #02072d;
+        color: white;
+    }
 }

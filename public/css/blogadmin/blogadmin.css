@@ -1,0 +1,50 @@
+#blogadmin *{
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+#blogadmin{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+#view{
+    width: 85%;
+    height: 100%;
+    overflow-y: scroll;
+}
+#blogadmin-menu{
+    position: sticky;
+    color: #fff;
+    top: 0;
+    bottom: 0;
+    width: 15%;
+    height: 100%;
+    background: #08c;
+}
+#blogadmin-menu ul{
+    padding: 2%;
+    height: 95%;
+    max-height: 95%;
+    overflow-y: scroll;
+}
+#blogadmin-menu .card-header{
+    height: 5%;
+    text-align: center;
+}
+#blogadmin-menu .card-header .card-title{
+    padding: 2%;
+}
+#blogadmin-menu li{
+    margin: 0;
+    margin-bottom: 2%;
+    padding: 2%;
+    background:#ddd9 ;
+    border-radius: 5em;
+    font-weight: bolder;
+    color: #fff;
+}
+#blogadmin li.actual{
+    color: #08c;
+    background:#fff;
+}

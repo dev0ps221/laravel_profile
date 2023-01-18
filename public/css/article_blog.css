@@ -1,0 +1,8 @@
+#article_blog{
+    background: #02072d;
+    color: white;
+}
+#article_blog .card{
+
+    --bs-card-bg:none;
+}

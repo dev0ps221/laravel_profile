@@ -25,7 +25,15 @@
                 echo view('top');
             ?>
             <section class='corps'>
-                {{view($render)}}
+                <?php
+                    if($render == 'blog'){
+                        echo view($render,['articles'=>$articles]);
+                    }elseif($render == 'article_blog'){
+                        echo view($render,['article'=>$article]);
+                    }else{
+                        echo view($render);
+                    }
+                ?>
             </section>
             <?php
                 echo view('bottom');
