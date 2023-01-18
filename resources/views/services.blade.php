@@ -44,7 +44,7 @@
         <em>
             Remplissez ce formulaire et je vous fais une offre dans les 72h qui suivent
         </em>
-        <form id="demander-offre" method="post" onSubmit="event.preventDefault();demandeoffre(event.currentTarget)">
+        <form id="demander-offre" method="post" action='/demande/nouvelle'>
             <div class="field">
                 <label for="nom_complet">
                     Votre nom complet
@@ -61,7 +61,7 @@
                 <label for="compte">
                     Pour qui faites vous la demande
                 </label>
-                <select required="" id="compte" name="compte">
+                <select required="" id="compte" name="cible_demande">
                     <option value="self">Moi-meme</option>
                     <option value="company">Mon|Une entreprise</option>
                     <option value="other">Quelqu'un d'autre</option>
@@ -93,7 +93,7 @@
                 <label for="description_demande">
                     Faites une description détaillée de votre demande en quelques lignes..
                 </label>
-                <textarea type="text" id="description_demande" name="description_demande" placeholder="Description de la demande.."></textarea>
+                <textarea type="text" id="description_demande" name="description" placeholder="Description de la demande.."></textarea>
             </div>
             <div class="field">
                 <label for="reclamer_offre">
@@ -106,5 +106,3 @@
         </form>
     </section>
 </section>
-
-<script src="{{URL::asset('/js/demandeoffre.js')}}"></script>

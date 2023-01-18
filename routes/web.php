@@ -19,20 +19,18 @@ Auth::routes();
 Route::get('/',function () {
     return redirect('/accueil');
 });
-
-Route::controller(App\Http\Controllers\PortfoController::class)->group(
-    function(){
-
-        
-        Route::get('/{view}', 'process_route');
-    }
-);
-Route::controller(App\Http\Controllers\ArticleController::class)->prefix('/blog')->group(function () {
-
+Route::controller(App\Http\Controllers\DemandeController::class)->prefix('demande')->group(function () {
+    
+    Route::post('/nouvelle','nouvelle');
+    
+    
+});
+Route::controller(App\Http\Controllers\ArticleController::class)->prefix('blog')->group(function () {
+    
     Route::get('/', 'index');
     Route::get('/article/{id}', 'show');
-
-
+    
+    
 });
 Route::controller(App\Http\Controllers\BlogadminController::class)->prefix('blogadmin')->middleware('auth')->group(
     function(){
@@ -42,6 +40,13 @@ Route::controller(App\Http\Controllers\BlogadminController::class)->prefix('blog
         Route::get('/modifier/{id}', 'modifier_article');
         Route::patch('/modifier/{id}', 'modifier');
         Route::delete('/supprimer/{id}', 'supprimer');
+    }
+);
+Route::controller(App\Http\Controllers\PortfoController::class)->group(
+    function(){
+        
+        
+        Route::get('/{view}', 'process_route');
     }
 );
 Route::get('/logout', [App\Http\Controllers\LogoutController::class,'perform']);
